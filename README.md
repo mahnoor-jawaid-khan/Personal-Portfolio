@@ -12,11 +12,11 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 - About Me, Skills, Projects, and Contact sections
 
-Project showcases with links and descriptions
+- Project showcases with links and descriptions
 
 - Mobile-first design
 
--Contact form with email functionality
+- Contact form with email functionality
 
 **Tech Stack**
 
