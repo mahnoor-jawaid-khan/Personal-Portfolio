@@ -1,5 +1,3 @@
-import { BsCarFront, BsFillBuildingsFill } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
 import { MdWeb } from "react-icons/md";
 import { Link } from "react-router-dom";
 import FarmProject from '../../../public/assets/images/farm project ss.png'
@@ -15,11 +13,11 @@ const ProjectCard = () => {
 
 
       {/* EDUGuide project */}
-<div
-  className="grid grid-cols-2 md:grid-cols-2 gap-6 text-center justify-center shadow-xl hover:shadow-2xl p-6 rounded-xl transition duration-300 ease-in-out items-center border border-gray-200 bg-white"
-  data-aos="fade-right"
-  data-aos-duration="800"
->        <div className="content">
+      <div
+        className="grid grid-cols-2 md:grid-cols-2 gap-6 text-center justify-center shadow-xl hover:shadow-2xl p-6 rounded-xl transition duration-300 ease-in-out items-center border border-gray-200 bg-white"
+        data-aos="fade-right"
+        data-aos-duration="800"
+      >        <div className="content">
 
           <div className="screen">
             <img src={EduGuide} className="cursor-pointer" />
@@ -123,7 +121,7 @@ const ProjectCard = () => {
             <span className="font-semibold">MERN stack (MongoDB, Express.js, React.js, Node.js)</span>
             to provide a modern, secure, and scalable messaging platform. It allows users to register, log in, and chat with other users in real time through an intuitive and responsive interface.
 
-<br />
+            <br />
             <span className="font-semibold"> Key features include:</span>
             User Authentication with JWT & Secure Password Hashing
 
@@ -137,7 +135,7 @@ const ProjectCard = () => {
           <div className="flex gap-2 items-center justify-center">
             <img src="assets/images/react.png" alt="react" className="w-10" />
             <img src="assets/images/mongo.png" alt="mongo" className="w-10" />
-                  <img src="assets/images/express.png" alt="HTML5 " className="w-10" />
+            <img src="assets/images/express.png" alt="HTML5 " className="w-10" />
             <img
               src="assets/images/node.png"
               alt="CSS"

@@ -40,19 +40,19 @@ const entries = {
   ],
   experience: [
     {
-      title: "Freelancer",
+      title: "Freelancing Web Developer",
       company: "Remote",
       date: "2022 - Present"
     },
     {
-      title: "MERN Stack Trainer",
+      title: "MERN Stack Trainer & Developer",
       company: "Aptech Learning",
       date: "Dec 2023 - Nov 2024"
     },
     {
-      title: "Frontend Developer",
+      title: "Frontend Web Developer",
       company: "XCL Technologies, Ltd",
-      date: "Sept 2023 - Nov 2023"
+      date: "Sept 2023 - Dec 2023"
     }
   ]
 };
