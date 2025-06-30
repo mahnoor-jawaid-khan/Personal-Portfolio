@@ -14,18 +14,18 @@ const ProjectCard = () => {
 
       {/* EDUGuide project */}
       <div
-        className="grid grid-cols-2 md:grid-cols-2 gap-6 text-center justify-center shadow-xl hover:shadow-2xl p-6 rounded-xl transition duration-300 ease-in-out items-center border border-gray-200 bg-white"
+        className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 text-center justify-center shadow-xl hover:shadow-2xl p-6 rounded-xl transition duration-300 ease-in-out items-center border border-gray-200 bg-white"
         data-aos="fade-right"
         data-aos-duration="800"
       >        <div className="content">
 
-          <div className="screen">
+          <div className="screen block w-full">
             <img src={EduGuide} className="cursor-pointer" />
           </div>
 
         </div>
 
-        <div className="text-center">
+        <div className="text-center block w-full">
           <h2 className="text-xl font-bold gap-4 items-center text-center">
             EduGuide – AI Chatbot for HEC Queries
             {" "}
@@ -97,16 +97,16 @@ const ProjectCard = () => {
 
 
       {/* Chat Application project */}
-      <div className="grid grid-cols-2 md:grid-cols-2 gap-6 text-center justify-center shadow-md p-6 rounded-xl  transition duration-150 shadow-xl hover:shadow-2xl p-6 rounded-xl transition duration-300 ease-in-out items-center border" data-aos="fade-right" data-aos-duration="800">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 text-center justify-center shadow-md p-6 rounded-xl  transition duration-150 shadow-xl hover:shadow-2xl p-6 rounded-xl transition duration-300 ease-in-out items-center border" data-aos="fade-right" data-aos-duration="800">
         <div className="content">
 
-          <div className="screen">
+          <div className="screen block w-full">
             <img src={ChatApp} className="cursor-pointer" />
           </div>
 
         </div>
 
-        <div className="text-center">
+        <div className="text-center block w-full">
           <h2 className="text-xl font-bold gap-4 items-center text-center">
             Real-Time Chat Application – MERN Stack
             {" "}
@@ -176,16 +176,16 @@ const ProjectCard = () => {
 
       {/*  Sukoon space  Project */}
 
-      <div className="grid grid-cols-2 md:grid-cols-2 gap-6 text-center justify-center shadow-md p-6 rounded-xl  transition duration-150 shadow-xl hover:shadow-2xl p-6 rounded-xl transition duration-300 ease-in-out items-center border" data-aos="fade-right" data-aos-duration="800">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 text-center justify-center shadow-md p-6 rounded-xl  transition duration-150 shadow-xl hover:shadow-2xl p-6 rounded-xl transition duration-300 ease-in-out items-center border" data-aos="fade-right" data-aos-duration="800">
         <div className="content">
 
-          <div className="screen">
+          <div className="screen block w-full">
             <img src={SukoonSpace} className="cursor-pointer" />
           </div>
 
         </div>
 
-        <div className="text-center">
+        <div className="text-center block w-full">
           <h2 className="text-xl font-bold gap-4 items-center text-center">
             Sukoon Space – Doctor Appointment Booking Web App
 
@@ -252,16 +252,16 @@ const ProjectCard = () => {
       </div>
 
       {/* farm project */}
-      <div className="grid grid-cols-2 md:grid-cols-2 gap-6 text-center justify-center shadow-md p-6 rounded-xl  transition duration-150 shadow-xl hover:shadow-2xl p-6 rounded-xl transition duration-300 ease-in-out items-center border" data-aos="fade-right" data-aos-duration="800">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 text-center justify-center shadow-md p-6 rounded-xl  transition duration-150 shadow-xl hover:shadow-2xl p-6 rounded-xl transition duration-300 ease-in-out items-center border" data-aos="fade-right" data-aos-duration="800">
         <div className="content">
 
-          <div className="screen">
+          <div className="screen block w-full">
             <img src={FarmProject} className="cursor-pointer" />
           </div>
 
         </div>
 
-        <div className="text-center">
+        <div className="text-center block w-full">
           <h2 className="text-xl font-bold gap-4 items-center text-center">
             FARM DAIRY WEBSITE PROJECT{" "}
           </h2>
@@ -310,16 +310,16 @@ const ProjectCard = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-2 gap-6 text-center justify-center shadow-md p-6 rounded-xl  transition duration-150 shadow-xl hover:shadow-2xl p-6 rounded-xl transition duration-300 ease-in-out items-center border" data-aos="fade-right" data-aos-duration="800">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 text-center justify-center shadow-md p-6 rounded-xl  transition duration-150 shadow-xl hover:shadow-2xl p-6 rounded-xl transition duration-300 ease-in-out items-center border" data-aos="fade-right" data-aos-duration="800">
         <div className="content">
 
-          <div className="screen">
+          <div className="screen block w-full">
             <img src={NoomProject} className="cursor-pointer" />
           </div>
 
         </div>
 
-        <div className="text-center">
+        <div className="text-center block w-full">
           <h2 className="text-xl font-bold gap-4 items-center text-center">
             NOOM PORTFOLIO WEBSITE PROJECT{" "}
           </h2>
