@@ -45,7 +45,7 @@ I’ve 2 years of experience in building websites — using tools like React, Ta
       <h3 className="font-semibold text-lg">Award Winning Project - EduGuide AI Chatbot</h3>
       <p className="text-sm text-gray-500 mb-3"></p>
       <img
-        src="../../../public/assets/images/eduguide.png"
+        src="assets/images/eduguide.png"
         alt="Project Screenshot"
         className="rounded-xl mb-3 w-full"
       />
