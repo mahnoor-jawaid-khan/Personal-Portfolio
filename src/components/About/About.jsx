@@ -30,7 +30,7 @@ const About = () => {
           <div className="absolute top-3 left-3 w-full h-full bg-rose-300 -z-10 rounded" />
           <img
             src={AboutImg}
-            alt="Portrait"
+            alt="About me"
             className="w-full rounded shadow-lg"
           />
         </div>
@@ -42,7 +42,7 @@ const About = () => {
           <div className="absolute top-3 left-3 w-full h-full bg-rose-300 -z-10 rounded" />
           <img
             src={AboutImg2}
-            alt="Portrait"
+            alt="About me"
             className="w-full rounded shadow-lg"
           />
         </div>
