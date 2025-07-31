@@ -1,4 +1,6 @@
 import React from 'react';
+import AboutImg from "../../../public/assets/images/about-1.jpg"
+import AboutImg2 from "../../../public/assets/images/about-2.jpg"
 
 const About = () => {
 
@@ -27,7 +29,7 @@ const About = () => {
         <div className="relative">
           <div className="absolute top-3 left-3 w-full h-full bg-rose-300 -z-10 rounded" />
           <img
-            src="../../../public/assets/images/about-1.jpg"
+            src={AboutImg}
             alt="Portrait"
             className="w-full rounded shadow-lg"
           />
@@ -39,7 +41,7 @@ const About = () => {
         <div className="relative">
           <div className="absolute top-3 left-3 w-full h-full bg-rose-300 -z-10 rounded" />
           <img
-            src="../../../public/assets/images/about-2.jpg"
+            src={AboutImg2}
             alt="Portrait"
             className="w-full rounded shadow-lg"
           />
